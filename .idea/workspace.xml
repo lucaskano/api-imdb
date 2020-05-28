@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e45cba83-2ec9-470e-bc83-c10cb045eba5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/ApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/ApiModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/ApiServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/handler/ApiClientHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/handler/impl/ApiClientHandlerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/impl/ApiServerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/parser/ApiClientParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/parser/impl/ApiClientParserImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/dto/ApiDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/dto/ApiRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/dto/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/enumeration/EnumApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/exception/ApiException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/communication/ImdbCommunication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/communication/impl/ImdbCommunicationImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/model/ImdbMovie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/model/ImdbResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/parser/ImdbParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/parser/impl/ImdbParserImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/logger/ApiCustomLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/logger/impl/ApiCustomLogImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/utils/ApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/utils/ApiUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/validation/CommunicationValidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/validation/InputCommunicationValidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/validation/OutputCommunicationValidate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/ApiTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/communication/ApiClientParserTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/dummydata/DummyDataForTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/util/ApiConfigTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/util/ApiUtilTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/validation/CommunicationValidateTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cXuze7f9Bcz6o8rYRLpDUCq5sh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e45cba83-2ec9-470e-bc83-c10cb045eba5" name="Default Changelist" comment="" />
+      <created>1590687522689</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590687522689</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1590687577053">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590687577053" />
+    <state x="65" y="0" key="new project wizard" timestamp="1590687579465">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1590687579465" />
+  </component>
+</project>

@@ -4,7 +4,21 @@ plugins {
 
 group 'br.com.lucaskano'
 version '1.0'
+apply plugin: 'idea'
+apply plugin : "java"
 
+
+task runWithExecJarExecutable(type: Exec) {
+    dependsOn jar
+    group = "Execution"
+    description = "Run the output executable jar with ExecTask"
+    commandLine "java", "-jar", jar.archiveFile.get()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
 repositories {
     mavenCentral()
 }
