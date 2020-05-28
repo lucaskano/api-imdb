@@ -2,8 +2,37 @@ plugins {
     id 'java'
 }
 
-group 'br.com.lucaskano'
+group 'lucaskano'
 version '1.0'
+
+apply plugin : "java"
+ext {
+    javaMainClass = "br.com.lucaskano.api.client.ApiClientApplication"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": javaMainClass
+        )
+    }
+}
+
+task runWithExecJarExecutable(type: Exec) {
+    dependsOn jar
+    group = "Execution"
+    description = "Run the output executable jar with ExecTask"
+    commandLine "java", "-jar", jar.archiveFile.get()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
 
 repositories {
     mavenCentral()

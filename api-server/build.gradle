@@ -6,7 +6,21 @@ group 'br.com.lucaskano'
 version '1.0'
 apply plugin: 'idea'
 apply plugin : "java"
+ext {
+    javaMainClass = "br.com.joacirjunior.apimovies.ApiMoviesApplication"
+}
 
+application {
+    mainClassName = javaMainClass
+}
+
+jar {
+    manifest {
+        attributes(
+                "Main-Class": javaMainClass
+        )
+    }
+}
 
 task runWithExecJarExecutable(type: Exec) {
     dependsOn jar
