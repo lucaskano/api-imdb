@@ -1,44 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e45cba83-2ec9-470e-bc83-c10cb045eba5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/ApiApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/ApiModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/ApiServer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/handler/ApiClientHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/handler/impl/ApiClientHandlerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/impl/ApiServerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/parser/ApiClientParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/communication/parser/impl/ApiClientParserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/dto/ApiDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/dto/ApiRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/dto/ApiResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/enumeration/EnumApiException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/exception/ApiException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/communication/ImdbCommunication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/communication/impl/ImdbCommunicationImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/model/ImdbMovie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/model/ImdbResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/parser/ImdbParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/external/imdb/parser/impl/ImdbParserImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/logger/ApiCustomLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/logger/impl/ApiCustomLogImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/utils/ApiConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/utils/ApiUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/validation/CommunicationValidate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/validation/InputCommunicationValidate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/lucaskano/api/validation/OutputCommunicationValidate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/ApiTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/communication/ApiClientParserTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/dummydata/DummyDataForTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/util/ApiConfigTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/util/ApiUtilTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/lucaskano/api/validation/CommunicationValidateTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-client/src/main/java/br/com/lucaskano/api/client/ApiClientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-client/src/main/java/br/com/lucaskano/api/client/ApiClientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/communication/ImdbCommunication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/communication/ExternalCommunication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/communication/impl/ImdbCommunicationImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/communication/impl/ExternalCommunicationImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/model/ImdbMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/model/ImdbResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/model/ExternalResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/parser/ImdbParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/parser/ExternalParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/parser/impl/ImdbParserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/external/imdb/parser/impl/ExternalParserImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/utils/ApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/utils/ApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/validation/CommunicationValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/validation/CommunicationValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/validation/InputCommunicationValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/validation/InputValidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/validation/OutputCommunicationValidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/src/main/java/br/com/lucaskano/api/validation/OutputValidate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
   <component name="SvnConfiguration">
@@ -76,7 +71,22 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="376" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590701801995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590701801995" />
     <state x="462" y="119" key="FileChooserDialogImpl" timestamp="1590687577053">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

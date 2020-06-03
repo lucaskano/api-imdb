@@ -3,23 +3,23 @@ package br.com.lucaskano.api.external.imdb.model;
 import java.util.List;
 import java.util.Objects;
 
-public class ImdbResponse {
+public class ExternalImdbResponse {
 
-    private List<ImdbMovie> movies;
+    private List<Movie> movies;
 
-    public ImdbResponse(){
+    public ExternalImdbResponse(){
 
     }
 
-    public ImdbResponse(List<ImdbMovie> movies){
+    public ExternalImdbResponse(List<Movie> movies){
         this.movies = movies;
     }
 
-    public List<ImdbMovie> getMovies(){
+    public List<Movie> getMovies(){
         return movies;
     }
 
-    public void setMovies(List<ImdbMovie> movies){
+    public void setMovies(List<Movie> movies){
         this.movies = movies;
     }
 
@@ -27,7 +27,7 @@ public class ImdbResponse {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ImdbResponse that = (ImdbResponse) o;
+        ExternalImdbResponse that = (ExternalImdbResponse) o;
         return Objects.equals(movies, that.movies);
     }
 
@@ -38,7 +38,7 @@ public class ImdbResponse {
 
     @Override
     public String toString() {
-        return "ImdbResponse{" + "movies=" + movies +
+        return "Imdb{" + "movies=" + movies +
                 '}';
     }
 }

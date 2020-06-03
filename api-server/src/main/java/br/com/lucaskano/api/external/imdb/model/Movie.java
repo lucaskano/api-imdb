@@ -2,7 +2,7 @@ package br.com.lucaskano.api.external.imdb.model;
 
 import java.util.Objects;
 
-public class ImdbMovie {
+public class Movie {
 
     private String title;
 
@@ -10,11 +10,11 @@ public class ImdbMovie {
 
     private String url;
 
-    public ImdbMovie(){
+    public Movie(){
 
     }
 
-    public ImdbMovie(String title, String identifier, String url){
+    public Movie(String title, String identifier, String url){
         this.title = title;
         this.identifier = identifier;
         this.url = url;
@@ -48,10 +48,10 @@ public class ImdbMovie {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ImdbMovie imdbMovie = (ImdbMovie) o;
-        return Objects.equals(title, imdbMovie.title) &&
-                Objects.equals(identifier, imdbMovie.identifier) &&
-                Objects.equals(url, imdbMovie.url);
+        Movie movie = (Movie) o;
+        return Objects.equals(title, movie.title) &&
+                Objects.equals(identifier, movie.identifier) &&
+                Objects.equals(url, movie.url);
     }
 
     @Override

@@ -4,10 +4,10 @@ import br.com.lucaskano.api.enumeration.EnumApiException;
 import br.com.lucaskano.api.exception.ApiException;
 import org.apache.commons.lang3.StringUtils;
 
-public class InputCommunicationValidate extends CommunicationValidate {
+public class InputValidate extends CommunicationValidate {
 
     /**
-     * Check if the INPUT formation is valid.
+     *  Validates input information
      * */
     public static void inputValidate(String input) throws ApiException {
         if(StringUtils.isNotBlank(input)){

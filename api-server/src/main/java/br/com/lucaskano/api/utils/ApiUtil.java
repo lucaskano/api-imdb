@@ -10,7 +10,7 @@ import java.nio.charset.StandardCharsets;
 
 public class ApiUtil {
 
-    public static int checkSeparatorPosition(String content) throws ApiException {
+    public static int checkPositionOfSeparator(String content) throws ApiException {
         if(content.indexOf(ApiConfig.getSeparator(), 0) <= 0
                 || content.indexOf(ApiConfig.getSeparator(), 0) == (content.length()-1)) {
             throw new ApiException(EnumApiException.INVALID_SEPARATOR_VALIDATION);
@@ -19,7 +19,7 @@ public class ApiUtil {
         }
     }
 
-    public static char getFirstLetter(String string) throws ApiException {
+    public static char getFirstChar(String string) throws ApiException {
         if(StringUtils.isNotBlank(string)){
             return string.charAt(0);
         }

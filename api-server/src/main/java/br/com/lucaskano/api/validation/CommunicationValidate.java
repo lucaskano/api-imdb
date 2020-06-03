@@ -8,24 +8,21 @@ import org.apache.commons.lang3.StringUtils;
 public class CommunicationValidate {
 
     /**
-     * Responsible for apply separator validation rule.
-     * The rule is the same for INPUT or OUTPUT.
-     *
+     * Validates the separator rule
      * */
-    public static void separatorValidate(String content) throws ApiException {
+    public static void separatorRule(String content) throws ApiException {
         if(StringUtils.isNotBlank(content)) {
-            verifyValidLength(content);
+            checkValidLength(content);
         } else {
             throw new ApiException(EnumApiException.INVALID_SEPARATOR_VALIDATION);
         }
     }
 
     /**
-     * Verify if the length is more than zero value and if the length is a
-     * valid value (length number should be the same of query or payload length).
-     *
+     * Checks if the length is greater than zero and valid
+     * (the length value must be the same as the query or load).
      * */
-    private static void verifyValidLength(String content) throws ApiException {
+    private static void checkValidLength(String content) throws ApiException {
         int position = ApiUtil.checkSeparatorPosition(content);
         try {
             int size = Integer.parseInt(content.substring(0, position).trim());
